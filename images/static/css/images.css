@@ -1,0 +1,62 @@
+h1{
+    font-size: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+  }
+  h3,h2{
+    font-size: 40px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h4{
+    color:white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h5{
+    color:white;
+    font-size: 20px;
+    font-family: serif;
+}
+  a{
+    color:whitesmoke;
+    font-family: 'Cormorant Garamond', serif;
+  
+  }
+  body,html{
+    height:100%;
+  }
+
+  body{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../img/archive.jpg) fixed;
+    background-position:0% 51%;
+    background-size:cover;
+    background-repeat:repeat
+  }
+  img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .hover:hover img {
+    opacity: 0.7;
+  }
+  .modal {
+    top:10%;
+    right:50px;
+    outline: none;
+  }
+  .modal-header,.modal-footer {
+    border-top: 1px;
+    border-bottom:1px;
+    background-color:black;
+    background-color: rgba(0,0,0, 0.9);
+ }
+.modal-body{
+  background-color: black;
+  background-color: rgba(0,0,0, 0.9);
+}
